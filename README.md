@@ -21,7 +21,6 @@ Atualmente o bot está rodando em sua página do twitter [Bot Cantadas (@botcant
 ## Padrão de Commits
 Sinta-se livre para contribuir se tiver alguma ideia interessante!  
 Apenas certifique-se de seguir o padrão de commits adotado [explicado neste site](https://udacity.github.io/git-styleguide/), em inglês.  
-Caso tenha problemas para entender o padrão, entre em [contato](#contact) diretamente comigo.
 
 ## Licença
 Este projeto está sobre a licença GNU GPL v3.0 - cheque o arquivo [LICENSE](LICENSE) para mais detalhes.
