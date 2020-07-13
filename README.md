@@ -15,8 +15,13 @@ Um simples bot no Twitter que responde cantadas sempre que mencionado.
 ## Como manter meu bot rodando na nuvem
 Se você desejar deixar seu bot rodando na nuvem (altamente recomendado para que ele esteja sempre disponível), é possível utilizar um site gratuito como [PythonAnywhere](https://www.pythonanywhere.com/).
 
-# Onde posso testar o bot?
+## Onde posso testar o bot?
 Atualmente o bot está rodando em sua página do twitter [Bot Cantadas (@botcantadas)](https://twitter.com/botcantadas) e pode ser utilizado por qualquer pessoa.
 
-# Licença
+## Padrão de Commits
+Sinta-se livre para contribuir se tiver alguma ideia interessante!  
+Apenas certifique-se de seguir o padrão de commits adotado [explicado neste site](https://udacity.github.io/git-styleguide/), em inglês.  
+Caso tenha problemas para entender o padrão, entre em [contato](#contact) diretamente comigo.
+
+## Licença
 Este projeto está sobre a licença GNU GPL v3.0 - cheque o arquivo [LICENSE](LICENSE) para mais detalhes.
