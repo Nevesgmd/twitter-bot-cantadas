@@ -71,8 +71,9 @@ while True:
                 api.update_status(f"@{mention.user.screen_name} "
                                   f"{pickup_lines[random.randint(0, len(pickup_lines) - 1)]}",
                                   mention.id)
-            except tweepy.TweepError:
+            except tweepy.TweepError as error:
                 print("Error. Trying again...")
+                print(error)
                 continue
             else:
                 print("Replied.\n")
