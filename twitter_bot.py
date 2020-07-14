@@ -1,5 +1,5 @@
-import random
 import tweepy
+from random import randint
 from time import sleep
 
 api_key = 'YOUR API KEY HERE'
@@ -55,7 +55,12 @@ pickup_lines = ['o que eu sinto por vc deve ser motorista, porque passageiro nã
                 'vc ta achando q vou correr atrás de vc???? Kkkkkkkk vai com calma pfv  tenho asma',
                 'ah pronto, precisa de um bot pra perceber nasceram um pro outro agora',
                 'me chama de natal que eu te mostro o que é noite feliz rsrs',
-                'olha.. pra virar bombom só falta valsa pq sonho vc já é rsrs']
+                'olha.. pra virar bombom só falta valsa pq sonho vc já é rsrs',
+                'me chama de horário de verão e vem perder uma horinha cmg rsrs',
+                'se estiver com medo do corona pode ficar de quarentena aqui em casa rsrs',
+                'te olhando daqui do prédio edifício n te querer hein kk',
+                'me chama de fritura q eu só tenho óleos pra vc kkkk',
+                'hoje eu to tipo zeca pagodinho, descobri que te amo demais rs']
 
 while True:
     user_id = read_last_seen_id()
@@ -69,7 +74,7 @@ while True:
             print(f"Found: {mention.full_text} {mention.id}\n")
             try:
                 api.update_status(f"@{mention.user.screen_name} "
-                                  f"{pickup_lines[random.randint(0, len(pickup_lines) - 1)]}",
+                                  f"{pickup_lines[randint(0, len(pickup_lines) - 1)]}",
                                   mention.id)
             except tweepy.TweepError as error:
                 print("Error. Trying again...")
