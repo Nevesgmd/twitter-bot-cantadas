@@ -60,7 +60,13 @@ pickup_lines = ['o que eu sinto por vc deve ser motorista, porque passageiro nã
                 'se estiver com medo do corona pode ficar de quarentena aqui em casa rsrs',
                 'te olhando daqui do prédio edifício n te querer hein kk',
                 'me chama de fritura q eu só tenho óleos pra vc kkkk',
-                'hoje eu to tipo zeca pagodinho, descobri que te amo demais rs']
+                'hoje eu to tipo zeca pagodinho, descobri que te amo demais rs',
+                'olha não sou luciano huck mas queria vc no meu lar doce lar kkkk',
+                'vc acredita em amor a primeira vista ou tenho q tweetar aqui mais uma vez? rsrs',
+                'se por acaso vc achasse uma quantia em dinheiro e essa quantia '
+                'fosse o número do seu celular, quanto dinheiro vc teria ganho? rs',
+                'olha, se eu te matar de amor ainda sobram umas 6 vidas hein kkkk',
+                'faz que nem figurinha de álbum.. cola em mim e me completa rsrsrs']
 
 while True:
     user_id = read_last_seen_id()
