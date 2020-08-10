@@ -66,7 +66,9 @@ pickup_lines = ['o que eu sinto por vc deve ser motorista, porque passageiro nã
                 'se por acaso vc achasse uma quantia em dinheiro e essa quantia '
                 'fosse o número do seu celular, quanto dinheiro vc teria ganho? rs',
                 'olha, se eu te matar de amor ainda sobram umas 6 vidas hein kkkk',
-                'faz que nem figurinha de álbum.. cola em mim e me completa rsrsrs']
+                'faz que nem figurinha de álbum.. cola em mim e me completa rsrsrs',
+                'olha vc n é asteroide mas tem um corpo celeste hein rsrs',
+                'dizem que tu toma banho mas eu só acredito vendo rsrsrs']
 
 while True:
     user_id = read_last_seen_id()
